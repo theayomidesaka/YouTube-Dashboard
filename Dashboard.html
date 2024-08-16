@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="dashboard-container">
+        <section class="top-navigation-header">
+            <div class="nav-left-content">
+                <div class="menu-icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg>
+                </div>
+                <div class="logo-and-country-container">
+                    <div class="logo-container">
+                        <img src="./Images/youtube-logo.svg" alt="Youtube Logo">
+                    </div>
+                    <div class="country-container">
+                        <p>NG</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-middle-container">
+                <div class="search-area-container">
+                    <input type="text" class="search-bar" placeholder="Search">
+                    <button class="search-button">
+                        <div class="search-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24px" viewBox="0 0 24 24" width="24px" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909ZM18 11a7 7 0 11-14 0 7 7 0 0114 0Z" fill-rule="evenodd"></path></svg>
+                        </div>
+                    </button>
+                </div>
+                <div class="voice-search-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 24 24" width="2rem" focusable="false" style="pointer-events: none; display: inherit; width: fit-content; height:fit-content;"><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg>
+                </div>
+            </div>
+            <div class="nav-right-container">
+                <div class="create-video-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" viewBox="0 0 24 24" width="24" focusable="false"><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"></path></svg>
+                </div>
+                <div class="notification-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"></path></svg>
+                </div>
+                <div class="profile-image">
+                    <p>D</p>
+                </div>
+            </div>
+        </section>
+        <div class="dashboard-content-area-container">
+            <div class="side-navigation-container">
+                <div class="nav-group-one">
+                    <div class="home-container">
+                        <div class="home-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><g><path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path></g></svg>
+                        </div>
+                        <div class="nav-text">
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="shorts-container">
+                        <div class="shorts-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 256 256" xml:space="preserve">
+    
+                                <defs>
+                                </defs>
+                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                                    <path d="M 30.063 90 c -6.765 0 -13.323 -3.634 -16.759 -10.009 c -4.669 -8.691 -1.799 -19.627 6.535 -24.901 c 0.049 -0.03 0.099 -0.06 0.15 -0.086 c 0.673 -0.349 1.33 -0.708 1.989 -1.081 c -0.487 -0.279 -0.972 -0.555 -1.464 -0.83 c -5.12 -2.956 -8.263 -7.114 -9.115 -12.038 c -1.115 -6.588 -1.112 -14.914 8.886 -20.927 c 7.687 -4.595 15.564 -9.093 23.183 -13.444 c 2.527 -1.443 5.056 -2.887 7.585 -4.338 c 5.279 -3.008 11.797 -3.129 17.436 -0.329 c 5.692 2.826 9.569 8.152 10.373 14.247 c 1.166 7.769 -2.72 15.545 -9.677 19.315 c -0.449 0.254 -0.885 0.504 -1.313 0.751 c 0.409 0.244 0.816 0.483 1.227 0.715 c 5.715 3.216 9.323 8.684 9.899 14.999 c 0.568 6.244 -1.953 12.194 -6.916 16.325 c -1.584 1.287 -3.325 2.268 -5.008 3.216 c -0.487 0.274 -0.975 0.549 -1.455 0.83 c -7.804 4.547 -17.067 9.922 -26.608 15.32 C 36.162 89.271 33.091 90 30.063 90 z M 21.907 58.516 c -6.513 4.174 -8.746 12.756 -5.08 19.579 c 3.927 7.284 13.009 10.041 20.251 6.138 c 9.485 -5.367 18.734 -10.735 26.526 -15.275 c 0.497 -0.29 1.002 -0.574 1.507 -0.86 c 1.609 -0.906 3.129 -1.762 4.432 -2.821 c 3.918 -3.26 5.918 -7.958 5.472 -12.872 c -0.454 -4.984 -3.326 -9.314 -7.88 -11.877 c -0.734 -0.415 -1.449 -0.845 -2.191 -1.292 c -0.628 -0.378 -1.277 -0.769 -1.975 -1.172 c -0.61 -0.352 -0.99 -0.999 -1.001 -1.704 c -0.01 -0.705 0.352 -1.363 0.951 -1.732 c 1.398 -0.861 2.773 -1.671 4.329 -2.551 c 5.513 -2.987 8.576 -9.111 7.654 -15.256 c -0.635 -4.808 -3.695 -8.99 -8.192 -11.223 c -4.445 -2.207 -9.558 -2.125 -13.671 0.219 c -2.526 1.45 -5.057 2.895 -7.587 4.339 c -7.601 4.341 -15.462 8.83 -23.11 13.401 c -6.346 3.817 -8.376 8.691 -7 16.821 c 0.65 3.762 3.056 6.871 7.149 9.234 c 1.452 0.814 2.868 1.639 4.46 2.583 c 0.606 0.359 0.979 1.011 0.981 1.715 c 0.002 0.705 -0.367 1.359 -0.971 1.721 C 25.216 56.681 23.628 57.622 21.907 58.516 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                    <path d="M 36.741 59.95 c -0.345 0 -0.69 -0.089 -0.999 -0.268 c -0.62 -0.357 -1.002 -1.018 -1.002 -1.733 V 32.417 c 0 -0.715 0.381 -1.375 1 -1.732 c 0.619 -0.357 1.382 -0.357 2 0 l 22.085 12.737 c 0.619 0.357 1 1.016 1.001 1.731 c 0.001 0.715 -0.38 1.374 -0.997 1.733 L 37.744 59.681 C 37.433 59.861 37.087 59.95 36.741 59.95 z M 38.741 35.88 V 54.48 l 16.088 -9.321 L 38.741 35.88 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Shorts</p> 
+                        </div>
+                    </div>
+                    <div class="subscriptions-container">
+                        <div class="subscriptions-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path></svg> 
+                        </div>
+                        <div class="nav-text">
+                           <p>Subscriptions</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group-two">
+                    <div class="you-container">
+                        <div class="nav-text">
+                            <p>You</p>
+                        </div>
+                        <div class="arrow-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height:24px;"><path d="M4.97 12.65 9.62 8 4.97 3.35l.71-.71L11.03 8l-5.35 5.35-.71-.7z"></path></svg>
+                        </div>
+                        
+                    </div>
+                    <div class="history">
+                        <div class="history-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" style="pointer-events: none; display: inherit; width: 24px; height: 24px;" viewBox="0 0 24 24" width="24" focusable="false"><g><path d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM22 12c0 5.51-4.49 10-10 10S2 17.51 2 12h1c0 4.96 4.04 9 9 9s9-4.04 9-9-4.04-9-9-9C8.81 3 5.92 4.64 4.28 7.38c-.11.18-.22.37-.31.56L3.94 8H8v1H1.96V3h1v4.74c.04-.09.07-.17.11-.25.11-.22.23-.42.35-.63C5.22 3.86 8.51 2 12 2c5.51 0 10 4.49 10 10z"></path></g></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>History</p> 
+                        </div>
+                    </div>
+                    <div class="playlists">
+                        <div class="playlist-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M22 7H2v1h20V7zm-9 5H2v-1h11v1zm0 4H2v-1h11v1zm2 3v-8l7 4-7 4z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Playlists</p> 
+                        </div>
+                    </div>
+                    <div class="watch-later">
+                        <div class="watch-later-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM12 3c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Watch Later</p> 
+                        </div>
+                        
+                    </div>
+                    <div class="liked-videos">
+                        <div class="playlist-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"></path></svg> 
+                        </div>
+                        <div class="nav-text">
+                           <p>Liked videos</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group-three">
+                    <div class="explore">
+                        <div class="nav-text">
+                            <p>Explore</p>
+                        </div> 
+                    </div>
+                    <div class="trending">
+                        <div class="trending-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M19 3.87v9.77C19 17.7 15.86 21 12 21s-7-3.3-7-7.37v-.13c0-1.06.22-2.13.62-3.09.5-1.19 1.29-2.21 2.27-2.97.85-.66 1.83-1.14 2.87-1.65.39-.19.77-.38 1.15-.58.36-.19.72-.38 1.08-.56v3.22l1.55-1.04L19 3.87M20 2l-6 4V3c-.85.44-1.7.88-2.55 1.33-1.41.74-2.9 1.34-4.17 2.32-1.13.87-2.02 2.05-2.58 3.37-.46 1.09-.7 2.29-.7 3.48v.14C4 18.26 7.58 22 12 22s8-3.74 8-8.36V2zM9.45 12.89 14 10v5.7c0 1.82-1.34 3.3-3 3.3s-3-1.47-3-3.3c0-1.19.58-2.23 1.45-2.81z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Trending</p> 
+                        </div>
+                    </div>
+                    <div class="music">
+                        <div class="music-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7zM9 19c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-12h-5V5h5v2z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Music</p> 
+                        </div>
+                    </div>
+                    <div class="gaming">
+                        <div class="gaming-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M10 12H8v2H6v-2H4v-2h2V8h2v2h2v2zm7 .5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5.67 1.5 1.5 1.5 1.5-.67 1.5-1.5zm3-3c0-.83-.67-1.5-1.5-1.5S17 8.67 17 9.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5zm-3.03-4.35-4.5 2.53-.49.27-.49-.27-4.5-2.53L3 7.39v6.43l8.98 5.04 8.98-5.04V7.39l-3.99-2.24m0-1.15 4.99 2.8v7.6L11.98 20 2 14.4V6.8L6.99 4l4.99 2.8L16.97 4z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Gaming</p> 
+                        </div>
+                        
+                    </div>
+                    <div class="news">
+                        <div class="news-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24pxs;"><path d="M11 11v6H7v-6h4m1-1H6v8h6v-8zM3 3.03V21h14l4-4V3.03M20 4v11.99l-.01.01H16v3.99l-.01.01H4V4h16zm-2 4H6V6h12v2zm0 7h-5v-2h5v2zm0-3h-5v-2h5v2z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>News</p> 
+                        </div>
+                    </div>
+                    <div class="sport">
+                        <div class="sport-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M18 5V2H6v3H3v6l3.23 1.61c.7 2.5 2.97 4.34 5.69 4.38L8 19v3h8v-3l-3.92-2.01c2.72-.04 4.99-1.88 5.69-4.38L21 11V5h-3zM6 11.38l-2-1V6h2v5.38zM15 21H9v-1.39l3-1.54 3 1.54V21zm2-10c0 2.76-2.24 5-5 5s-5-2.24-5-5V3h10v8zm3-.62-2 1V6h2v4.38z"></path></svg>
+                        </div>
+                        <div class="nav-text">
+                           <p>Sport</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-content-area">
+                <div class="chip-container">
+                    <div class="chip-btn-selected">
+                        <p>All</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Nollywood</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Music</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Action Thrillers</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Gaming</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Sketch comedy</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>News</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Playlists</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Live</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Raggae</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Premer League</p>
+                    </div>
+                    <div class="chip-btn">
+                        <p>Javascript</p>
+                    </div>
+                </div>
+                <div class="video-contents">
+                    <div class="video-card">
+                        
+                            <div class="thumbnail"></div>
+                        
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/corporate-guy.png" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                    <div class="title">
+                                    <p>Intimate Worship Experience Pt1 | 1Hour deep worship and praise| TBN UK - Victor Thompson</p>
+                                    </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Victor Thompson</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">1.2M views</li>
+                                        <li class="duration">1 day ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        
+                            <div class="thumbnail-2"></div>
+                        
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/corporate-guy.png" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>PROPHET SUDDENLY 2 II HELPERS OF GOD II FULL MOVIEII APOSTLE AROME OSAYI II THE WINLOS</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>The Winlos</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">1.2M views</li>
+                                        <li class="duration">1 day ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="thumbnail-1"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/corporate-guy.png" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>THE HOUSEMAIDS AUDITION | MR MACARONI | MUMMY WA | PRETTY PLAY | TRINITY UGONABO | SOPHIE</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>MR MACARONI</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">1.2M views</li>
+                                        <li class="duration">1 day ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        
+                            <div class="thumbnail-3"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/corporate-guy.png" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>AFTER SCHOOL - ANNABEL APARA, FAITH STANLEY, KELVIN EZIKE (Kenzy)</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>RuthKadiri247</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">3.98M views</li>
+                                        <li class="duration">8 day ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        
+                            <div class="thumbnail-4"></div>
+                        
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/mikebamiloye_profile.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>THE CRUISE || MOUNT ZION || RCCG THE KINGS PALACE</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Damilola Mike-Bamiloye</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">544k views</li>
+                                        <li class="duration">2 months ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="thumbnail-5"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/rccg-logo.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>RCCG JUNE 2024 HOLY GHOST SERVICE</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>RCCG</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">5.8K watching</li>
+                                        <li class="duration">LIVE</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-6"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/corporate-guy.png" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>SCIENTIST || Latest Nigerian Gospel Movie</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Zionhome Drama</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">98k views</li>
+                                        <li class="duration">1 month ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-7"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/ogbueli_profile.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>THREE THINGS EVERY SON MUST KNOW, PART 2 | DR DAVID OGBUELI #inheritance #legacy #sonship</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Pastor David Ogbueli</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">1k views</li>
+                                        <li class="duration">Streamed 12 days ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-8"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/redtv.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>UINTENTIONAL/THE MOVIE</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>REDTV</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">2.2M views</li>
+                                        <li class="duration">2 years ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-9"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/sunmisola_profile.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>SUNMISOLA AGBEGI 30 MINS OF PROPHETIC WORSHIP LIVE #worship #sunmisolaagbebi</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>The Refined People's Assembly</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">408k views</li>
+                                        <li class="duration">6 months ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-11"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/ademoye_profile.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>UNEXPECTED PLACES STARRING TIMINI EGBUSON, BIMBO ADEMOYE. A LOVE STORY</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Bimbo Ademoye TV</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">8.2M views</li>
+                                        <li class="duration">1 month ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="video-card">
+                            <div class="thumbnail-10"></div>
+                        <div class="card-text-and-profile">
+                            <div class="video-profile-image">
+                                <img src="./Images/shank_profile.jpeg" alt="An image of a corporate young guy">
+                            </div>
+                            <div class="video-title-and-details">
+                                <div class="video-title">
+                                <div class="title">
+                                    <p>Surviving the Streets of UK as an Immigrant</p>
+                                </div>
+                                <div class="more-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                </div>
+                                </div>
+                                <div class="other-details">
+                                <div class="channel-name">
+                                    <p>Shank Comics</p>
+                                </div>
+                                <div class="views-and-durations">
+                                    <ul>
+                                        <li class="views">844k views</li>
+                                        <li class="duration">21 days ago</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <script src="./dashboard.js"></script>
+</body>
+</html>
